@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.titulo {
+    margin: 0;
+}
+
+.menu {
+    margin: 10px 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 1000px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+.categorias {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.lista-pratos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.prato {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+}
+
+.prato:hover {
+    transform: translateY(-5px);
+}
+
+.imagem {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.nome-prato {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0 5px 0;
+}
+
+.descricao {
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.preco {
+    color: #b12704;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.valor {
+    font-weight: normal;
+}
+
